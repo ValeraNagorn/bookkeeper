@@ -6,6 +6,9 @@ import pytest
 from bookkeeper.utils import read_tree
 
 
+DB_NAME = 'testdb.db'
+
+
 def test_create_tree():
     text = dedent('''
         parent1

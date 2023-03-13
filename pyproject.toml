@@ -2,7 +2,7 @@
 name = "pybookkeeper"
 version = "0.1.0"
 description = "Python app to manage your personal finances"
-authors = ["Anatoly Chistov <atchistov@gmail.com>"]
+authors = ["Valery Nagornyy <nagornyi.va@phystech.edu>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "bookkeeper"}]

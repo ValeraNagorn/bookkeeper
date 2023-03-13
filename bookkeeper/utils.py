@@ -61,3 +61,15 @@ def read_tree(lines: Iterable[str]) -> list[tuple[str, str | None]]:
         last_name = name
         last_indent = indent
     return result
+
+INIT_CATEGORIES = '''
+продукты
+    мясо
+        сырое мясо
+        мясные продукты
+    сладости
+книги
+одежда
+'''.splitlines()
+
+DB_NAME = 'database.db'
